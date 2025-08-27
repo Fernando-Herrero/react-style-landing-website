@@ -1,11 +1,21 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./Components/Navbar";
+import { HomePage } from "./Pages/HomePage";
 
 export const App = () => {
 	return (
-		<div style={{ display: "flex", flexDirection: "column", gap: "16px", padding: "0 8px" }}>
+		<div className="app-container" style={{ display: "flex", flexDirection: "column" }}>
 			<Navbar />
-			<main></main>
+			<main>
+				<Routes>
+					<Route path="/home" element={<HomePage />} />
+					<Route path="/features" />
+					<Route path="/community" />
+					<Route path="/blog" />
+					<Route path="/pricing" />
+				</Routes>
+			</main>
 			<footer></footer>
 		</div>
 	);

@@ -57,7 +57,7 @@ export const Navbar = () => {
 					Pricing
 				</NavLink>
 				<NavLink
-					className="cursor-pointer flex text-[8px] bg-green-600 px-1.5 py-1 rounded-xs text-white hover:bg-green-900 transition duration-500 ease-in-out sm:text-xs sm:px-3 sm:py-2  md:text-sm"
+					className="cursor-pointer flex text-[8px] bg-green-600 px-1.5 py-1 rounded-xs text-white hover:bg-green-900 transition duration-300 ease-in-out sm:text-xs sm:px-3 sm:py-2  md:text-sm"
 					to="/register"
 				>
 					Register Now <img src="/src/assets/Arrows & Directions/Right-arrow.svg" alt="right-arrow" />

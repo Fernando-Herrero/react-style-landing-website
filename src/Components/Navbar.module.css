@@ -2,12 +2,12 @@
 	display: flex;
 	justify-content: space-between;
     align-items: center;
-    padding: 8px 8px 8px 24px;
+    padding: 8px 8px 8px 40px;
 }
 
 @media (min-width: 640px) {
     .container {
-        padding: 8px 16px 8px 32px;
+        padding: 8px 16px 8px 40px;
     }
 }
 
